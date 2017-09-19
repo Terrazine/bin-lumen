@@ -1,0 +1,7 @@
+#!/bin/bash
+# Create a new lumen project in an existing directory
+
+lumen new repo
+mv repo/* ./
+mv repo/.[!.]* ./
+rmdir repo/

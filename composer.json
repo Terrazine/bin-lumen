@@ -1,0 +1,23 @@
+{
+    "name": "terrazine/bin-lumenew",
+    "description": "Binary to create a lumen project in the current directory.",
+    "type": "binary",
+    "license": "inherit",
+    "authors": [
+        {
+            "name": "Patrick 'Quezler' Mounier",
+            "email": "Quezler@me.com"
+        }
+    ],
+    "require": {
+        "laravel/lumen-installer": "^1.0"
+    },
+    "bin": [
+        "src/bin/lumenew"
+    ],
+    "extra": {
+        "terrazine": {
+            "human": "@see terrazine/slayn"
+        }
+    }
+}
